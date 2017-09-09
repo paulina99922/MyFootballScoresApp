@@ -1,0 +1,124 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    <RelativeLayout
+        android:id="@+id/main"
+        style="@style/RelativeLayout">
+
+        <LinearLayout
+            style="@style/LinearLayout1">
+
+            <LinearLayout
+                style="@style/LinearLayout2">
+
+                <ImageView
+                    android:src="@drawable/teamalogo"
+                    style="@style/ImageViews" />
+
+                <TextView
+                    android:text="@string/team_a_name"
+                    style="@style/TeamViews"/>
+                <TextView
+                    android:text="@string/team_a_score"
+                    style="@style/ScoreViews"
+                    android:id="@+id/team_a_score"/>
+
+                <TextView
+                    style="@style/CardViews"
+                    android:text="@string/team_a_redcard"
+                    android:onClick="RedCardForTeamA"/>
+
+                <TextView
+                    style="@style/CardViews"
+                    android:text="@string/team_a_redcard_number"
+                    android:id="@+id/team_a_red_card" />
+
+                <TextView
+                    style="@style/CardViews"
+                    android:text="@string/team_a_yellowcard"
+                    android:onClick="YellowCardForTeamA"/>
+
+                <TextView
+                    style="@style/CardViews"
+                    android:text="@string/team_a_yellowcard_number"
+                    android:id="@+id/team_a_yellow_card" />
+
+
+                <Button
+                    android:text="@string/team_a_goal"
+                    style="@style/ButtonGoal"
+                    android:onClick="GoalForTeamA"/>
+
+                <Button
+                    android:text="@string/red_card_for_team_a"
+                    style="@style/ButtonRed"
+                    android:onClick="RedCardForTeamA"/>
+
+                <Button
+                    android:text="@string/yellow_card_for_team_a"
+                    style="@style/ButtonYellow"
+                    android:onClick="YellowCardForTeamA"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayout2">
+
+                <ImageView
+                    android:src="@drawable/teamblogo"
+                    style="@style/ImageViews"/>
+
+                <TextView
+                    android:text="@string/team_b_name"
+                    style="@style/TeamViews"/>
+
+                <TextView
+                    android:text="@string/team_b_score"
+                    style="@style/ScoreViews"
+                    android:id="@+id/team_b_score"/>
+
+                <TextView
+                    style="@style/CardViews"
+                    android:text="@string/team_b_redcard"
+
+                    android:onClick="RedCardForTeamB"/>
+
+                <TextView
+                    style="@style/CardViews"
+                    android:id="@+id/team_b_red_card"
+                    android:text="@string/team_b_redcard_number" />
+
+                <TextView
+                    style="@style/CardViews"
+                    android:text="@string/team_b_yellowcard"
+                    android:onClick="YellowCardForTeamB"/>
+
+                <TextView
+                    android:id="@+id/team_b_yellow_card"
+                    style="@style/CardViews"
+                    android:text="@string/team_b_yellowcard_number" />
+
+                <Button
+                    android:text="@string/team_b_goal"
+                    style="@style/ButtonGoal"
+                    android:onClick="GoalForTeamB"/>
+
+                <Button
+                    android:text="@string/red_card_for_team_b"
+                    style="@style/ButtonRed"
+                    android:onClick="RedCardForTeamB"/>
+
+                <Button
+                    android:text="@string/yellow_card_for_team_b"
+                    style="@style/ButtonYellow"
+                    android:onClick="YellowCardForTeamB"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:text="@string/reset"
+            style="@style/ButtonReset"
+            android:onClick="resetScore"/>
+
+    </RelativeLayout>
+</ScrollView>

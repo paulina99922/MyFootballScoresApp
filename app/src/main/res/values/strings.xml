@@ -1,0 +1,22 @@
+<resources>
+<string name="app_name">MyFootballScoresApp</string>
+<string name="team_a_name">Ferroviária</string>
+<string name="team_a_score">0</string>
+<string name="team_a_redcard">Red Card</string>
+<string name="team_a_redcard_number">0</string>
+<string name="team_a_yellowcard">Yellow Card</string>
+<string name="team_a_yellowcard_number">0</string>
+<string name="team_a_goal">GOAL!</string>
+<string name="red_card_for_team_a">RED CARD</string>
+<string name="yellow_card_for_team_a">YELLOW CARD</string>
+<string name="team_b_name">São José</string>
+<string name="team_b_score">0</string>
+<string name="team_b_redcard">Red Card</string>
+<string name="team_b_redcard_number">0</string>
+<string name="team_b_yellowcard">Yellow Card</string>
+<string name="team_b_yellowcard_number">0</string>
+<string name="team_b_goal">GOAL!</string>
+<string name="red_card_for_team_b">RED CARD</string>
+<string name="yellow_card_for_team_b">YELLOW CARD</string>
+<string name="reset">Reset</string>
+</resources>
